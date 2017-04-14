@@ -22,11 +22,11 @@ waitForKeyElements("#c4-primary-header-contents", channelPageRSS);
 // Add RSS button on video page
 function videoPageRSS () {
     var channelId = $('meta[itemprop="channelId"]').attr('content');
-    $('#watch7-subscription-container').append("<a style='" + buttonCSS + "href='https://www.youtube.com/feeds/videos.xml?channel_id=" + channelId + "'>RSS Feed</a>");
+    $('#watch7-subscription-container').append("<a style='" + buttonCSS + "'href='https://www.youtube.com/feeds/videos.xml?channel_id=" + channelId + "'>RSS Feed</a>");
 }
 
 // Add RSS button on channel page
 function channelPageRSS () {
     var channelId = $('meta[itemprop="channelId"]').attr('content');
-    $('.primary-header-actions').append("<a style='" + buttonCSS + "href='https://www.youtube.com/feeds/videos.xml?channel_id=" + channelId + "'>RSS Feed</a>");
+    $('.primary-header-actions').append("<a style='" + buttonCSS + "'href='https://www.youtube.com/feeds/videos.xml?channel_id=" + channelId + "'>RSS Feed</a>");
 }
