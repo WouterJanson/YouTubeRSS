@@ -28,5 +28,5 @@ function videoPageRSS () {
 // Add RSS button on channel page
 function channelPageRSS () {
     var channelId = $('meta[itemprop="channelId"]').attr('content');
-    $('.primary-header-actions').append("<a style='" + buttonCSS + "'href='https://www.youtube.com/feeds/videos.xml?channel_id=" + channelId + "'>RSS Feed</a>");
+    $('.primary-header-actions').prepend("<a style='" + buttonCSS + "float: right;" + "'href='https://www.youtube.com/feeds/videos.xml?channel_id=" + channelId + "'>RSS Feed</a>");
 }
