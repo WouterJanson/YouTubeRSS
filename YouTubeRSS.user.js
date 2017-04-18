@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name           YouTubeRSS
 // @namespace      https://wouterjanson.nl/
-// @version        0.1
-// @description    Easily get the RSS feed of a YouTube Channel
+// @version        0.2
+// @description    Easily get the RSS feed of a YouTube Channel and playlist
 // @author         Wouter Janson
 // @copyright      2017 Wouter Janson
 // @license        MIT License
