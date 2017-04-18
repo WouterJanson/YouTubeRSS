@@ -22,11 +22,17 @@ waitForKeyElements("#c4-primary-header-contents", channelPageRSS);
 // Add RSS button on video page
 function videoPageRSS () {
     var channelId = $('meta[itemprop="channelId"]').attr('content');
+    if (typeof channelId === 'undefined') {
+        return;
+    }
     $('#watch7-subscription-container').append("<a style='" + buttonCSS + "'href='https://www.youtube.com/feeds/videos.xml?channel_id=" + channelId + "'>RSS Feed</a>");
 }
 
 // Add RSS button on channel page
 function channelPageRSS () {
     var channelId = $('meta[itemprop="channelId"]').attr('content');
+    if (typeof channelId === 'undefined') {
+        return;
+    }
     $('.primary-header-actions').prepend("<a style='" + buttonCSS + "float: right;" + "'href='https://www.youtube.com/feeds/videos.xml?channel_id=" + channelId + "'>RSS Feed</a>");
 }
