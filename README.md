@@ -1,3 +1,4 @@
+[![YouTubeRSS](https://wouterjanson.nl/projects/youtuberss.png)](#youtuberss)
 # YouTubeRSS
 [![GitHub issues](https://img.shields.io/github/issues/WouterJanson/YouTubeRSS.svg)](https://github.com/WouterJanson/YouTubeRSS/issues)
 [![license](https://img.shields.io/github/license/WouterJanson/YouTubeRSS.svg)](https://github.com/WouterJanson/YouTubeRSS/blob/master/LICENCE)
